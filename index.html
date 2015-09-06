@@ -35,6 +35,24 @@
 				</p>
 			</div>
 
+
+
+			<form action="https://eveshop.herokuapp.com" method="POST">
+			    <script
+			        src="https://checkout.stripe.com/checkout.js"
+			        class="stripe-button"
+			        data-key="pk_live_G1ft9iqdx9bb55lEoJTPJnsC"
+			        data-name="PRODUCT_NAME"
+			        data-description="PRODUCT_DESCRIPTION"
+			        data-amount="HOW_FUCKING_MUCH"
+			    ></script>
+			    <input name="amount" value="HOW_FUCKING_MUCH" type="hidden">
+			    <input name="description" value="PRODUCT_DESCRIPTION" type="hidden">
+			    <input name="metadata" value="PRODUCT_METADATA" type="hidden">
+			</form>
+
+
+
 		</div>
 
 	</body>
